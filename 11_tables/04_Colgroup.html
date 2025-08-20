@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 8px;
+        border: 1px solid #ddd;
+      }
+      colgroup col:nth-child(1),
+      colgroup col:nth-child(2) {
+        background-color: yellow;
+      }
+      colgroup col:nth-child(3) {
+        background-color: #6024ee;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Colgroup Example 1</h2>
+    <table>
+      <colgroup>
+        <col />
+        <col />
+        <col />
+      </colgroup>
+      <tbody>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Doe</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

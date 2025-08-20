@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColspanRowspan</title>
+    <style>
+      table,
+      th,
+      td,
+      tr {
+        border-style: solid;
+        padding: 20px;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <p>This is using Rowspan</p>
+      <tr>
+        <th>Bike</th>
+        <th>amount</th>
+        <th>CC</th>
+      </tr>
+      <tr>
+        <td>MT-15</td>
+        <td>2,15,000</td>
+        <td rowspan="2">150</td>
+      </tr>
+      <tr>
+        <td>R15</td>
+        <td>2,50,000</td>
+      </tr>
+      <tr>
+        <td>DUKE</td>
+        <td>3,50,000</td>
+        <td>250</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+    <p>this is using colspan</p>
+
+    <table>
+      <tr>
+        <th>name</th>
+        <th colspan="2">amount</th>
+      </tr>
+      <tr>
+        <td>AGI</td>
+        <td>1,00,000</td>
+        <td>1,50,000</td>
+      </tr>
+      <tr>
+        <td>SURYA</td>
+        <td>1,00,000</td>
+        <td>1,50,000</td>
+      </tr>
+      <tr>
+        <td>MOHAN</td>
+        <td>1,00,000</td>
+        <td>1,50,000</td>
+      </tr>
+    </table>
+  </body>
+</html>
